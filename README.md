@@ -1,0 +1,4 @@
+This was done by chatgpt. It did a decent job.
+
+
+This code simulates a scenario from Pokémon, where the player repeatedly tries to avoid being "soft-locked" by a Graveler using the move "Self-Destruct." The simulation runs 1,000,000 attempts to determine how many turns it takes, on average, for the player to safely reduce Graveler's "safecount" to zero without triggering Self-Destruct. In each attempt, a random number between 1 and 4 is generated, with a 25% chance of triggering the dangerous action (number 1). If a number other than 1 is generated, the safecount is reduced by one. The simulation keeps track of the maximum number of turns required in any of the 1,000,000 attempts to completely reduce the safecount. The result is printed as the maximum number of turns needed across all attempts.
